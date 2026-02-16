@@ -27,7 +27,7 @@ import streamlit as st
 # Check if the key exists in the secrets file
 if "TAVILY_API_KEY" in st.secrets:
     os.environ["TAVILY_API_KEY"] = st.secrets["TAVILY_API_KEY"]
-# We ONLY need Tavily key now. No Google Key needed!
+
 
 
 # --- ENGINE SWAP: GOOGLE -> OLLAMA ---
