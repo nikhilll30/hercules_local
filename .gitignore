@@ -1,0 +1,23 @@
+# --- System & IDE ---
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+venv/
+
+# --- Secrets ---
+.env
+.streamlit/secrets.toml
+
+# --- Databases (Block ALL memory folders) ---
+hercules_db*/
+apollo_*/
+*.sqlite3
+*.bin
+*.pickle
+
+# --- Generated Files ---
+*.pdf
+*.docx
+*.xlsx
+*.png

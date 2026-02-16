@@ -1,0 +1,10 @@
+streamlit
+langchain-ollama
+langchain-community
+langchain-experimental
+langgraph
+tavily-python
+matplotlib
+pandas
+reportlab
+python-docx
